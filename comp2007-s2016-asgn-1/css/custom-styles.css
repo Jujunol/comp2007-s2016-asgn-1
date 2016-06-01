@@ -1,3 +1,7 @@
 ﻿.error {
     background: #bd0f0f;
 }
+
+.page-header {
+    border-bottom: 2px solid #d3d3d3;
+}

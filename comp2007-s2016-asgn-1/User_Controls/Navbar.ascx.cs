@@ -16,6 +16,15 @@ namespace comp2007_s2016_asgn_1
                 case "Home Page":
                     home.Attributes.Add("class", "active");
                     break;
+                case "Projects":
+                    projects.Attributes.Add("class", "active");
+                    break;
+                case "Services":
+                    services.Attributes.Add("class", "active");
+                    break;
+                case "About":
+                    about.Attributes.Add("class", "active");
+                    break;
                 case "Contact":
                     contact.Attributes.Add("class", "active");
                     break;

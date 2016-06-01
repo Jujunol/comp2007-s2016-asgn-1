@@ -2,7 +2,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <bs3:Jumbotron runat="server" ID="Jumbotron">
         <Body>
-            <h1>Welcome!</h1>
+            <div class="page-header">
+                <h1>Welcome to John's Code!</h1>
+            </div>
+            <p>Come to learn more about John's coding style? What he's accomplished? Or maybe just to see
+                what he knows? Well, you've come to the right place, go ahead and use the navbar above to navigate
+                throught the website!
+            </p>
         </Body>
     </bs3:Jumbotron>
 </asp:Content>
