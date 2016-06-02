@@ -1,12 +1,49 @@
 ﻿<%@ Page Title="Projects" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Projects.aspx.cs" Inherits="comp2007_s2016_asgn_1.Projects" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed massa ac nisi imperdiet fringilla. Vivamus iaculis, nunc ut bibendum fermentum, ante libero posuere nisl, eu consectetur sem urna et purus. Vivamus egestas lorem arcu, rutrum condimentum tellus ornare id. Proin leo metus, tempus nec sollicitudin at, posuere vitae sapien. Nulla viverra vestibulum mauris, sed iaculis nulla dictum vitae. Etiam molestie eros nec sollicitudin rhoncus. Donec gravida venenatis mauris at semper. Nunc id efficitur metus, non pharetra ex.
+    <div class="page-header">
+        <h1>Projects</h1>
+        <h2><small>Projects that John has done</small></h2>
+    </div>
+    <div class="container">
+        <div class="thumbnail col-md-4">
+            <img src="http://gc200240927.computerstudi.es/comp2007/YouDownload-SS.PNG" />
+            <div class="caption">
+                <h3>YouTube Downloader</h3>
+                <p>
+                    This program allows you to add multiple videos and once you have your list, to download
+                    them all within a click of a button in the highest video quality possible!
+                </p>
+            </div>
+        </div>
 
-    Donec tincidunt odio nunc, quis venenatis odio fringilla vitae. Suspendisse facilisis imperdiet luctus. Integer sagittis tincidunt enim a iaculis. Nunc laoreet hendrerit congue. Nulla malesuada faucibus ligula non consectetur. Sed a vestibulum quam. Maecenas non venenatis turpis.
+        <div class="thumbnail col-md-4">
+            <img src="http://gc200240927.computerstudi.es/comp2007/my-twitter-icon.png" />
+            <div class="caption">
+                <h3>Tweet Scanner</h3>
+                <p>
+                    Have you ever needed to quickly find something on Twitter but couldn't find it in their search?
+                    Perhaps that's because it was burried in other posts, but twitter scanner quickly scans Twitter
+                    and apply multiple filters to find that exact post you're looking for. Not only that but 
+                    Twitter Scanner can alert you whenever there's a post with a hashtag or by / at someone with
+                    any other filters that you apply making an absolutely beautiful tool for those who use Twitter
+                    for work.
+                </p>
+            </div>
+        </div>
 
-    In iaculis odio nisi, et porta magna pellentesque et. Proin ullamcorper tincidunt purus, at vehicula ex lacinia ac. In ultrices rutrum lorem, in volutpat ante pretium id. Mauris iaculis vitae mi at lacinia. In fermentum libero ut elementum sodales. Vivamus sollicitudin tortor sapien, vitae mattis erat accumsan eget. Mauris pharetra nisi eget nibh vulputate lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur molestie ultrices dapibus. Nam ornare ipsum id finibus maximus. Donec eu molestie libero. Vestibulum non odio justo. Duis laoreet eros at nibh imperdiet faucibus. Aenean lobortis cursus mauris vitae tincidunt. Mauris in arcu ut ligula tristique iaculis a non nunc. Nam non ultrices purus.
-
-    Nam efficitur suscipit dolor. Morbi rhoncus ante non orci placerat, quis laoreet nibh tincidunt. Curabitur interdum blandit tempus. Phasellus suscipit leo congue, commodo massa eu, congue lectus. Nunc eget luctus urna. Aenean rhoncus scelerisque sapien, eget convallis nisi sodales in. Proin finibus vestibulum tortor ut cursus. Donec ullamcorper turpis sed eleifend pellentesque. Curabitur vehicula placerat neque, vel dapibus ante imperdiet eu. Donec rhoncus lectus eu magna euismod, quis vulputate ex mollis. Phasellus a magna tellus.
-
-    Curabitur mollis, nibh sed efficitur tempor, velit tellus tempor augue, non porttitor tortor neque nec risus. Aenean sapien metus, cursus ac ipsum vel, blandit porttitor erat. Sed id vestibulum neque, nec cursus ligula. Curabitur pulvinar augue libero, eu scelerisque nibh rutrum eget. Phasellus fermentum sapien lorem, vel molestie nibh finibus ut. Aliquam nec euismod metus. Praesent non bibendum purus. Sed efficitur magna turpis, quis euismod elit suscipit a. Morbi pellentesque, augue a tristique dignissim, tellus odio tempor ligula, ac interdum est justo id diam. Proin sodales enim ut egestas elementum. Integer ut nisl ut purus consequat laoreet. Nullam mattis leo sed luctus varius. Maecenas consequat enim tellus, at consequat ex facilisis egestas. Mauris nec nisl a ex malesuada faucibus ut ornare urna.
+        <div class="thumbnail col-md-4">
+            <img src="http://gc200240927.computerstudi.es/comp2007/negative-id-problem.PNG" />
+            <div class="caption">
+                <h3>Auto Ledger-it</h3>
+                <p>
+                    Having a ledger of all your transactions and payments can keep track of whether you remembered
+                    to pay your phone bill, whether you paid the hydro yet this month, or whether that guy's 
+                    transaction ever went through. The problem is though that not everyone has this kind of time to
+                    do their own ledger. That's where Auto Ledger-it makes your life easier; all you have to do is
+                    link it to your bank account and voilà, it will automatically start keeping track of everything
+                    so you don't have to!
+                </p>
+            </div>
+        </div>
+    </div>
 </asp:Content>
