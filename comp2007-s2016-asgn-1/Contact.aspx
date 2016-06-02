@@ -2,7 +2,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="row">
         <div class="col-md-4">
-            <div class="panel panel-danger">
+            <div class="panel panel-info">
                 <div class="panel-heading">
                     <h3>Contact Info</h3>
                 </div>
@@ -14,6 +14,9 @@
                         <abbr title="Phone">P: </abbr>
                         (705) 555-5555
                     </address>
+                    <a href="#" class="fa fa-3x fa-facebook-official"></a>
+                    <a href="#" class="fa fa-3x fa-twitter-square"></a>
+                    <a href="#" class="fa fa-3x fa-google-plus-square"></a>
                 </div>
             </div>
         </div>
